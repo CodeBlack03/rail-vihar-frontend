@@ -1,0 +1,38 @@
+.users-list {
+    padding: 20px;
+}
+
+.users-list h2 {
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.download-csv {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.user-table {
+    margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.user-item:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,35 @@
+.user-detail {
+    padding: 20px;
+    text-align: center;
+}
+
+.user-detail h2 {
+    margin-bottom: 20px;
+}
+
+.user-detail p {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.user-detail .btn {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.user-detail .form-control {
+    margin-top: 10px;
+}
+
+.user-detail .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.user-detail .delete-button:hover {
+    background-color: darkred;
+}

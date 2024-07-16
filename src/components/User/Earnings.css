@@ -1,0 +1,44 @@
+.earnings-list {
+    margin: 20px;
+}
+
+.earning-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.post-earning-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.earning-item:hover {
+    background-color: #f0f0f0;
+}
+
+.post-earning-btn:hover {
+    background-color: #0056b3;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.total-amount-cell {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+}

@@ -1,0 +1,25 @@
+.announcements-list {
+    padding: 20px;
+}
+
+.announcement-item:hover {
+    background-color: #f5f5f5;
+}
+
+.post-announcement-button {
+    margin-bottom: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.pagination button {
+    text-transform: none;
+}
+
+/* Add any additional styling as needed */

@@ -1,0 +1,39 @@
+.announcement-details {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+
+/* Large screens */
+@media (min-width: 992px) {
+    .announcement-details {
+        padding: 40px;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    .announcement-details {
+        padding: 30px;
+    }
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+    .announcement-details {
+        padding: 20px;
+    }
+
+    .announcement-details h4 {
+        font-size: 22px;
+    }
+
+    .announcement-details p {
+        font-size: 14px;
+    }
+
+    .delete-button {
+        padding: 8px 16px;
+    }
+}

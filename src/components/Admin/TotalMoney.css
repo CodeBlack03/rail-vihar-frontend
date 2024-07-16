@@ -1,0 +1,20 @@
+.total-money {
+    padding: 20px;
+}
+
+.total-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #2196f3;
+    /* Added border styling */
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.total-amount {
+    font-size: 48px;
+}

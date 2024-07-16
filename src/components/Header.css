@@ -1,0 +1,72 @@
+/* Base styles */
+.Home-header {
+    background-color: #f7ee89;
+    padding: 10px 20px;
+    /* Adjusted padding */
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* Ensure the header spans the full width */
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 60px;
+    /* Adjusted logo size */
+    height: auto;
+    border-radius: 50%;
+    /* Make the logo border circular */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    transition: transform 0.3s ease;
+    /* Smooth transition for transform effect */
+}
+
+.logo:hover {
+    transform: translateY(-5px);
+    /* Translate logo 5px up on hover */
+}
+
+/* Media queries for responsiveness */
+
+/* Large screens */
+@media (min-width: 992px) {
+    .Home-header {
+        flex-direction: row;
+    }
+
+    .logo-container {
+        align-items: center;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+    .Home-header {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logo-container {
+        align-items: center;
+    }
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+    .Home-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 40px;
+    }
+}

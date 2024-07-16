@@ -1,0 +1,23 @@
+.earning-details {
+    margin: 20px;
+}
+
+.earning-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.earning-actions button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.earning-actions button:hover {
+    background-color: #0056b3;
+}

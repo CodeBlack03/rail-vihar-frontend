@@ -1,0 +1,26 @@
+.edit-user-profile {
+    padding: 20px;
+}
+
+.edit-user-profile h2 {
+    margin-bottom: 20px;
+}
+
+.edit-user-profile .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-user-profile label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.edit-user-profile input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.edit-user-profile button {
+    margin-top: 10px;
+}

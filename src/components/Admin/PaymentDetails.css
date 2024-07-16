@@ -1,0 +1,37 @@
+.payment-detail {
+    padding: 20px;
+    text-align: center;
+}
+
+.payment-detail h2 {
+    margin-bottom: 20px;
+}
+
+.payment-detail button {
+    margin-top: 10px;
+}
+
+.download-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}

@@ -1,0 +1,36 @@
+.user-payments {
+    padding: 20px;
+    text-align: center;
+}
+
+.payment-item {
+    padding: 30px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+    height: 100%;
+    /* Adjust height as per requirement */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+
+.payment-item:hover {
+    background-color: #f1f1f1;
+}
+
+.payment-item>* {
+    margin-bottom: 15px;
+}
+
+.download-button {
+    margin-top: 15px;
+    align-self: center;
+}
+
+@media (min-width: 768px) {
+    .payment-item {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+}

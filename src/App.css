@@ -1,38 +1,86 @@
+/* Reset default margin and padding */
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the header */
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .App {
-  text-align: center;
+    text-align: center;
+    /* Center align all content */
+}
+.logo {
+    height: 50px;
+    /* Adjust height as needed */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-buttons {
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-buttons button {
+    margin-right: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-buttons button:hover {
+    text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Apply styles to the main content */
+main {
+    padding: 20px;
+}
+
+/* Apply styles to the footer */
+footer {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+/* Update image container styles */
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    /* Distribute items evenly */
+    margin-top: 20px;
+    /* Adjust margin as needed */
+}
+
+.image-container>div {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    /* Make images circular if needed */
+}/* Make images circular if needed */
+
+
+/* Center the heading */
+.image-container h2 {
+    text-align: center;
 }

@@ -1,0 +1,104 @@
+/* .dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+    left: 0;
+    position: relative;
+    top: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+      
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.button-logout {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-logout:hover {
+    background-color: #d32f2f;
+}
+.UserHeader-header {
+    background-color: #f4e7ad;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo-container {
+    margin-bottom: 20px;
+    
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: translateY(-5px);
+}
+.Welcome {
+    text-align: right;
+}
+
+.Welcome h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+} */
+
+.dashboard {
+    display: flex;
+}
+
+.sidebar {
+    flex: 0 0 auto;
+}
+
+.content {
+    flex: 1 1 auto;
+    padding: 20px;
+}

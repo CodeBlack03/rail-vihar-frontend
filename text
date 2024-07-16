@@ -1,0 +1,6 @@
+//method to get the details of a particular user along with payments /users/:id DONE
+//route to get the payment details of a particular user   /users/:id/payments   DONE
+//route to get a particular payment   /payments/:id                             DONE
+1- create the filters of payments by user, date, category and sort by asc and desc  DONE
+2- create such filters for earnings, expenditures by category and date              DONE
+3- create route to search user by [name,houseNumber, houseType] and also filter user by [name,houseNumber, houseType]   DONE

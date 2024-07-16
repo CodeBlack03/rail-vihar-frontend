@@ -1,0 +1,15 @@
+.announcement-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.delete-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+/* Add any additional styling as needed */

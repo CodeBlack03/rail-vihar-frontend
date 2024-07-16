@@ -1,0 +1,65 @@
+.expenditures-list {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 250px;
+}
+
+.sort-by-select {
+    min-width: 150px;
+}
+
+.expenditure-item {
+    cursor: pointer;
+}
+
+.expenditure-item:hover {
+    background-color: #f0f0f0;
+}
+
+.post-expenditure-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.post-expenditure-button:hover {
+    background-color: #0056b3;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button {
+    margin: 0 5px;
+}
+
+.expenditure-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.total-amount-cell {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+}

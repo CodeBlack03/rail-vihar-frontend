@@ -1,0 +1,31 @@
+.post-expenditure-form {
+    /* Styles for the post expenditure form */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type='text'],
+input[type='number'],
+textarea,
+input[type='date'],
+input[type='file'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type='submit'] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type='submit']:hover {
+    background-color: #0056b3;
+}

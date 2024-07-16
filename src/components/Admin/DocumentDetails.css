@@ -1,0 +1,62 @@
+.document-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Added for center alignment */
+}
+
+.document-details h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.document-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* Adjust as needed */
+}
+
+.button-container button {
+    width: calc(50% - 10px);
+    /* Adjust button width */
+}
+
+.button-container button:first-child {
+    margin-right: 10px;
+    /* Adjust margin between buttons */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}

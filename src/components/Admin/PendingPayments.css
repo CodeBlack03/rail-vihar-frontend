@@ -1,0 +1,26 @@
+.pending-payments {
+    padding: 20px;
+}
+
+.payment-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.payment-item:hover {
+    background-color: #f1f1f1;
+}
+
+.approve-button {
+    margin-right: 5px;
+    background-color: #4caf50;
+}
+
+.reject-button {
+    background-color: #f44336;
+}
+
+.reject-button:hover,
+.approve-button:hover {
+    opacity: 0.8;
+}
