@@ -291,21 +291,28 @@ export const downloadPaymentFile = (id,metaData) => async (dispatch) => {
       responseType: 'blob',
     });
     console.log(response)
-
+    
     const contentType = response.headers['content-type']; // Get content type from headers
-    const originalFileName = `${metaData.user.name}_${new Date(metaData.date).toLocaleDateString()}_${metaData.user.houseNumber}/${metaData.user.houseType}`
-    const fileExtension = contentType.split('/')[1]; // Extract file extension
-    const fileName = `${originalFileName}.${fileExtension}`; // Combine with original file name
+    let originalFileName='file';
+    let fileExtension=contentType.split('/')[1]; 
+    
+    if(metaData){
+      originalFileName = `${metaData.user.name}_${new Date(metaData.date).toLocaleDateString()}_${metaData.user.houseNumber}/${metaData.user.houseType}`
+      // fileExtension = contentType.split('/')[1]; // Extract file extension
+      
+    }
+   const fileName = `${originalFileName}.${fileExtension}`; // Combine with original file name
+    
 
     const url = window.URL.createObjectURL(new Blob([response.data]));
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', fileName); // or any file extension
+    link.setAttribute('download', fileName); //fill or any file extension
     document.body.appendChild(link);
     link.click();
     dispatch({ type: DOWNLOAD_PAYMENT_FILE_SUCCESS });
   } catch (error) {
-    dispatch({ type: DOWNLOAD_PAYMENT_FILE_FAILURE, payload: error.response.data });
+    dispatch({ type: DOWNLOAD_PAYMENT_FILE_FAILURE, payload: "unable to download" });
   }
 };
 

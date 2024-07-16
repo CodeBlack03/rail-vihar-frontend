@@ -15,9 +15,9 @@ const UserPayments = () => {
   useEffect(() => {
     dispatch(fetchUserPayments(id));
   }, [dispatch, id]);
-
+  console.log(userPayments)
   const handleDownloadFile = (paymentId) => {
-    dispatch(downloadPaymentFile(paymentId,userPayments));
+    dispatch(downloadPaymentFile(paymentId,null));
   };
 
   if (loading) return <p>Loading...</p>;

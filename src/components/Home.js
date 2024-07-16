@@ -79,7 +79,7 @@ const Home = () => {
           </Carousel.Item>
         </Carousel>
         </div>
-        <h1 className="main-heading">Rail Vihar, Meerut</h1>
+        <h1 className="main-heading">Rail Vihar</h1>
         <div className="image-container">
           <div>
             <img src={require("../images/president.png")} alt="President" />
