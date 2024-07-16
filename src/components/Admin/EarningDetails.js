@@ -57,7 +57,7 @@ const EarningDetails = () => {
           <strong>Date:</strong> {new Date(earningDetail.date).toLocaleDateString()}
         </Typography>
         <Grid container spacing={2} className="earning-actions">
-          {earningDetail.screenshotURL && (
+          {earningDetail.filePath && (
             <Grid item>
               <Button variant="contained" onClick={handleDownloadFile}>
                 Download File

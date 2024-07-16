@@ -17,7 +17,7 @@ const UserPayments = () => {
   }, [dispatch, id]);
 
   const handleDownloadFile = (paymentId) => {
-    dispatch(downloadPaymentFile(paymentId));
+    dispatch(downloadPaymentFile(paymentId,userPayments));
   };
 
   if (loading) return <p>Loading...</p>;
