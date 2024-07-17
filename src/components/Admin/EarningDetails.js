@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { fetchEarningDetail, downloadEarningFile, deleteEarning } from '../../actions/earningActions';
 import {
   Card,
@@ -17,7 +17,7 @@ const EarningDetails = () => {
   const dispatch = useDispatch();
   const { id } = useParams();
   const { earningDetail, loading, error } = useSelector(state => state.earnings);
-
+  const navigate = useNavigate()
   useEffect(() => {
     dispatch(fetchEarningDetail(id));
   }, [dispatch, id]);
@@ -29,6 +29,7 @@ const EarningDetails = () => {
   const handleDeleteEarning = () => {
     if (window.confirm("Are you sure you want to delete this earning?")) {
       dispatch(deleteEarning(id));
+      navigate('/admin/earnings')
     }
   };
 
