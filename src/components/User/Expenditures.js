@@ -66,6 +66,7 @@ const ExpendituresList = () => {
 
   return (
     <div className="expenditures-list">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
      {error && <Message variant="danger">{error.message}</Message>}
       <Typography variant="h4" align="center" gutterBottom>
         All Expenditures

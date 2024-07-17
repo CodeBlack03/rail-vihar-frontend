@@ -52,6 +52,7 @@ const PostEarningForm = () => {
 
   return (
     <div className="post-earning-form">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
 
       <h2>Post New Earning</h2>

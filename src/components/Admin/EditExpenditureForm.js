@@ -51,6 +51,7 @@ const EditExpenditureForm = () => {
 
   return (
     <div className="edit-expenditure-form">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
 
       <h2>Edit Expenditure</h2>

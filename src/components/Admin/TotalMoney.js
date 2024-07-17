@@ -26,6 +26,7 @@ const TotalMoney = () => {
 
   return (
     <Container maxWidth="sm" className="total-money">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
       <Box textAlign="center">
         <Typography variant="h4" gutterBottom>

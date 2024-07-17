@@ -30,6 +30,7 @@ const Register = () => {
 
   return (
     <div className="register-container">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
       <h2>Register</h2>
       <form onSubmit={onSubmit}>

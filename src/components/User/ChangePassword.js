@@ -37,6 +37,7 @@ const ChangePassword = () => {
 
   return (
     <div className="change-password">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
      {error && <Message variant="danger">{error.message}</Message>}
       <h2>Change Password</h2>
       <form onSubmit={handleSubmit}>

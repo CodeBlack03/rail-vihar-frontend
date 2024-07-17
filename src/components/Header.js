@@ -12,6 +12,7 @@ const Home = () => {
 
   return (
     <header className="Home-header">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
       <div className="logo-container">
         <img src={RailViharLogo} alt="Rail Vihar Logo" className="logo" onClick={handleClickImg} />
         {/* Uncomment the following line if needed */}

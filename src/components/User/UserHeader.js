@@ -30,6 +30,7 @@ const UserHeader = () => {
 
   return (
     <header className="UserHeader-header">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
 
       <div className="logo-container">

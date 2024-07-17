@@ -163,6 +163,7 @@ const AdminSidebar = ({ handleLogout }) => {
 
   return (
     <DrawerStyled variant="permanent">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
       <Toolbar>
         <LogoContainer onClick={handleClickImg}>
           <Logo src={RailViharLogo} alt="Rail Vihar Logo" />

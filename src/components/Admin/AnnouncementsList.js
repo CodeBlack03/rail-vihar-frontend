@@ -43,6 +43,7 @@ const AnnouncementsList = () => {
 
   return (
     <Container maxWidth="md" className="announcements-list">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
 
       <Box textAlign="center" marginBottom={2}>

@@ -55,6 +55,7 @@ const UpdateProfile = () => {
 
   return (
     <div className="update-profile">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {auth.error && <Message variant="danger">{auth.error.message}</Message>}
 
       <h2>Update Profile</h2>

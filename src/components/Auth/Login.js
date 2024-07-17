@@ -23,6 +23,7 @@ const Login = () => {
 
   return (
     <div className="Login">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
       <h1>Login</h1>
       {error && <Message variant="danger">{error.message}</Message>}
       <form onSubmit={handleSubmit}>

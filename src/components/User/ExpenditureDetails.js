@@ -34,6 +34,7 @@ const ExpenditureDetails = () => {
 
   return (
     <div className="expenditure-details">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
      {error && <Message variant="danger">{error.message}</Message>}
       <h2>Expenditure Detail</h2>
       <p>Category: {expenditure.category}</p>

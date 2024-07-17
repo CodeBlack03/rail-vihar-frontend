@@ -65,6 +65,7 @@ const navigatePage = (pageNumber) => {
 
   return (
     <Container className="users-list">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
       <h2>All Users</h2>
       <Row className="controls">

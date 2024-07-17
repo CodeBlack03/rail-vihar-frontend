@@ -47,6 +47,7 @@ const AdminDashboard = () => {
 
   return (
     <div style={{ display: 'flex' }}>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
       <AdminSidebar handleLogout={handleLogout} />
       <div style={{ flexGrow: 1, padding: '16px' }}>

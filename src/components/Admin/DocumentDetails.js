@@ -29,6 +29,7 @@ const DocumentDetails = () => {
 
     return (
         <div className="document-details">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
         {error && <Message variant="danger">{error.message}</Message>}
 
             {documentDetail && (

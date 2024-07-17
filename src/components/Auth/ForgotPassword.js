@@ -19,6 +19,7 @@ const ForgotPassword = () => {
   };
   return (
     <div className="ForgotPassword">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
       <h1>Forgot Password</h1>
       <form onSubmit={handleSubmit}>

@@ -51,6 +51,7 @@ const PostExpenditureForm = () => {
 
   return (
     <div className="post-expenditure-form">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
       <h2>Post Expenditure</h2>
       <form onSubmit={handleSubmit}>

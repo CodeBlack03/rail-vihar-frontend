@@ -53,6 +53,7 @@ const UserDetail = () => {
 
   return (
     <Container className="user-detail">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
       <Row className="justify-content-md-center">
         <Col md="auto">

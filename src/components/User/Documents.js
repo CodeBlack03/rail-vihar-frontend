@@ -22,6 +22,7 @@ const Documents = () => {
 
   return (
     <div className="Documents">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
       <h1>Documents</h1>
       {documents.length > 0 ? (
         documents.map((document) => (

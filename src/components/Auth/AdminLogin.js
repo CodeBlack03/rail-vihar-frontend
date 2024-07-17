@@ -24,6 +24,7 @@ const AdminLogin = () => {
 
   return (
     <div className="AdminLogin">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
       <h1>Admin Login</h1>
       {error && <Message variant="danger">{error.message}</Message>}
       <form onSubmit={handleSubmit}>

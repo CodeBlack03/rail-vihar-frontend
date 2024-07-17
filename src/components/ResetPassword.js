@@ -28,6 +28,7 @@ const ResetPassword = () => {
 
   return (
     <Container className="reset-password">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
       <Typography variant="h4" className="mb-3">Reset Password</Typography>
       {error && <Message variant="danger">{error.message}</Message>}
       {success && <Message variant="success">Password has been reset successfully</Message>}

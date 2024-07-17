@@ -58,6 +58,7 @@ const PaymentDetail = () => {
 
   return (
     <div className="payment-detail">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
       <h2>Payment Detail</h2>
       <div className="detail-item">
         <span>Amount:</span> <p>{payment.amount}</p>

@@ -34,6 +34,7 @@ const AnnouncementDetails = () => {
 
   return (
     <Container maxWidth="md" className="announcement-details">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     {error && <Message variant="danger">{error.message}</Message>}
 
       <Box textAlign="center" marginBottom={2}>

@@ -39,7 +39,7 @@ const AdminProfile = () => {
   return (
     <div className="admin-profile">
     {/* {error && <Message variant="danger">{error.message}</Message>} */}
-
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
       <h2>Admin Profile</h2>
       <p>Name: {user.name}</p>
       <p>Email: {user.email}</p>

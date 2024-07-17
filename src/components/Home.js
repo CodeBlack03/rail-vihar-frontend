@@ -41,6 +41,7 @@ const Home = () => {
 
   return (
     <div className="Home">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
       <header className="Home-header">
         <div className="logo-container">
           <img src={RailViharLogo} alt="Rail Vihar Logo" className="logo" />

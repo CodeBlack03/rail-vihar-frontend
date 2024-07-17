@@ -41,6 +41,7 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
      {error && <Message variant="danger">{error.message}</Message>}
       <div className="sidebar">
         <UserSidebar handleLogout={handleLogout} />
