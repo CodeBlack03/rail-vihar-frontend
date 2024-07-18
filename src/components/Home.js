@@ -54,7 +54,7 @@ const Home = () => {
           <Button onClick={() => navigate('/register')} variant="text">Register</Button>
           <Button onClick={() => navigate('/forgot-password')} variant="text">Forgot Password</Button>
           <Button onClick={() => navigate('/documents')} variant="text">Documents</Button>
-          <Button onClick={()=>navigate('/team')} variant='text'>Team</Button>
+          <Button onClick={()=>navigate('/team')} variant='text'>RWA Team</Button>
         </nav>
       </header>
       <main>
